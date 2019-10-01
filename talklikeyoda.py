@@ -1,8 +1,5 @@
 def talk_like_yoda():
-    sentence=str(input("Enter a Sentence: "))
-    words = sentence.split()
-    sentence_new = " ".join(reversed(words))
-    return sentence_new
+    return ' '.join(input("Enter a Sentence: ").split(' ')[::-1])
 print(talk_like_yoda())
 
 '''sentence = input("Enter a Sentence")
